@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.count-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  border-radius: 10px;
+  padding: 80px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    margin-left: 250px;
+  }
+}
+
+.count-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.even-odd {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.button {
+  font-family: 'Roboto';
+  color: #334155;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.content {
+  font-family: 'Roboto';
+  font-size: 8px;
+  color: #1e293b;
+}
