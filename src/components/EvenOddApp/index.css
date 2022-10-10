@@ -48,6 +48,8 @@
   padding-right: 22px;
   padding-top: 8px;
   padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
 }
 
 .content {
